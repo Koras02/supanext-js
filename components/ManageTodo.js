@@ -19,7 +19,7 @@ import {
     Textarea,
 } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
-import { supabaseClient } from '../../lib/client';
+import { supabaseClient } from '../lib/client';
 
 const ManageTodo = ({ isOpen, onClose, initialRef, todo, setTodo }) => {
     const [title, setTitle] = useState('');

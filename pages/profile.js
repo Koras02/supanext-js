@@ -1,6 +1,6 @@
 import { Avatar, Box, Button, Flex, FormControl, FormLabel, Input, Stack, Textarea } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
-import Navbar from './components/Navbar';
+import Navbar from '../components/Navbar';
 import { supabaseClient } from '../lib/client';
 
 const Profile = () => {

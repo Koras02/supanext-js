@@ -1,4 +1,4 @@
-import { Box, Divider, Heading, Text, Tag, Center, Button } from '@chakra-ui/react';
+import { Box, Divider, Heading, Tag, Text, Button, Center } from '@chakra-ui/react';
 
 const SingleTodo = ({ todo, openHandler, deleteHandler, isDeleteLoading }) => {
     const getDateInMonthDayYear = date => {

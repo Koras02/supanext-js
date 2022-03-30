@@ -3,9 +3,9 @@ import { Box, HStack, SimpleGrid, Tag } from '@chakra-ui/react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect, useRef, useState } from 'react';
-import ManageTodo from './components/ManageTodo';
-import Navbar from './components/Navbar';
-import SingleTodo from './components/SingleTodo';
+import ManageTodo from '../components/ManageTodo';
+import Navbar from '../components/Navbar';
+import SingleTodo from '../components/SingleTodo';
 import { supabaseClient } from '../lib/client';
 
 const Home = () => {

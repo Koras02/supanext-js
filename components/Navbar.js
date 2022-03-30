@@ -2,7 +2,7 @@ import { Box, Button, ButtonGroup, Flex, Heading } from '@chakra-ui/react';
 import NavLink from 'next/link';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
-import { supabaseClient } from '../../lib/client';
+import { supabaseClient } from '../lib/client';
 
 const Navbar = ({ onOpen }) => {
     const router = useRouter();
